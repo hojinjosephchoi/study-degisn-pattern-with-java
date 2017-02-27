@@ -1,4 +1,4 @@
-package com.lattekafe.designpattern.builder;
+package com.lattekafe.designpattern.builder.ver1;
 
 public class MacBlueprint extends Blueprint {
 
