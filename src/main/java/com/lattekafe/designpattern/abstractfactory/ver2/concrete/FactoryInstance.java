@@ -11,11 +11,12 @@ public class FactoryInstance {
 		GuiFac factoryInstance = null;
 
 		int osMode = getOsCode();
-		
+
 		switch (osMode) {
 		case 0:
 			factoryInstance = new WinGuiFac();
 			break;
+
 		case 1:
 			factoryInstance = new MacGuiFac();
 			break;
