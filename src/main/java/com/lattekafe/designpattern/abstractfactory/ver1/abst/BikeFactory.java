@@ -1,4 +1,4 @@
-package com.lattekafe.designpattern.abstractfactory.abst;
+package com.lattekafe.designpattern.abstractfactory.ver1.abst;
 
 public interface BikeFactory {
 	
