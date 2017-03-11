@@ -24,6 +24,20 @@
 - 이러한 상태들을 외부로부터 캡슐화 하기 위해 인터페이스를 만들어 시스템의 각 상태를 나타내는클래스로 하여금 실체화하게 함
 
 ### 추가 팁
-- State 구현체에 Singleton 패턴을 적용하여 상태변화가 생길때마다 새로운객체 생성없이 메모리 낭비 / 성능 저하를 방지할 수 있다.
+- State 구현체에 Singleton 패턴을 적용하여 상태변화가 생길때마다 새로운 객체 생성없이 메모리 낭비 / 성능 저하를 방지할 수 있다.
 
 ![state pattern 예제](http://wiki.gurubee.net/download/attachments/1507413/statediagram.gif)
+
+
+## State Pattern VS. Strategy Pattern
+### 공통점
+- 행위 자체를 별도의 클래스로 캡슐화
+- 연관관계를 이용해 행위를 캡슐화한 클래스에서 실제 작업 수행을 위임
+- 실행 중 행위 변경 가능
+
+### 차이점
+- State Pattern은 Client에서 상태객체와 관련된 어떤 지식도 없다. 
+- State Pattern은 실행 중 행위(상태)가 자주 변경된다.
+- Strategy Pattern은 context에서 행위(전략)가 한번 고정되면 자주 변경되지 않는다.
+- State Pattern은 상태변경을 State요소를 구현한 클래스 자신이 수행
+- Strategy Pattern은 행위 시작, 변경 등이 Client에 의해 이루어지며 통제된다.
