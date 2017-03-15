@@ -1,7 +1,7 @@
-package com.lattekafe.designpattern.decorator.concrete;
+package com.lattekafe.designpattern.decorator.ver1.concrete;
 
-import com.lattekafe.designpattern.decorator.abst.AbstAdding;
-import com.lattekafe.designpattern.decorator.abst.IBeverage;
+import com.lattekafe.designpattern.decorator.ver1.abst.AbstAdding;
+import com.lattekafe.designpattern.decorator.ver1.abst.IBeverage;
 
 public class Espresso extends AbstAdding {
 	

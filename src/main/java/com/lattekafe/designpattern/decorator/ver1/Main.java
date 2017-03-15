@@ -1,11 +1,11 @@
-package com.lattekafe.designpattern.decorator;
+package com.lattekafe.designpattern.decorator.ver1;
 
 import java.util.Scanner;
 
-import com.lattekafe.designpattern.decorator.abst.IBeverage;
-import com.lattekafe.designpattern.decorator.concrete.Base;
-import com.lattekafe.designpattern.decorator.concrete.Espresso;
-import com.lattekafe.designpattern.decorator.concrete.Milk;
+import com.lattekafe.designpattern.decorator.ver1.abst.IBeverage;
+import com.lattekafe.designpattern.decorator.ver1.concrete.Base;
+import com.lattekafe.designpattern.decorator.ver1.concrete.Espresso;
+import com.lattekafe.designpattern.decorator.ver1.concrete.Milk;
 
 public class Main {
 

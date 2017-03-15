@@ -1,4 +1,4 @@
-package com.lattekafe.designpattern.decorator.abst;
+package com.lattekafe.designpattern.decorator.ver1.abst;
 
 public interface IBeverage {
 	
