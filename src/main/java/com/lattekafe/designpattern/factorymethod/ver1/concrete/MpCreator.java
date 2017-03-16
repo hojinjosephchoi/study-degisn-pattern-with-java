@@ -1,9 +1,9 @@
-package com.lattekafe.designpattern.factorymethod.concrete;
+package com.lattekafe.designpattern.factorymethod.ver1.concrete;
 
 import java.util.Date;
 
-import com.lattekafe.designpattern.factorymethod.framework.Item;
-import com.lattekafe.designpattern.factorymethod.framework.ItemCreator;
+import com.lattekafe.designpattern.factorymethod.ver1.framework.Item;
+import com.lattekafe.designpattern.factorymethod.ver1.framework.ItemCreator;
 
 public class MpCreator extends ItemCreator {
 
