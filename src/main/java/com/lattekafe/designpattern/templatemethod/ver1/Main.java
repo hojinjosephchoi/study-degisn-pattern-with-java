@@ -1,4 +1,4 @@
-package com.lattekafe.designpattern.templatemethod;
+package com.lattekafe.designpattern.templatemethod.ver1;
 
 public class Main {
 
