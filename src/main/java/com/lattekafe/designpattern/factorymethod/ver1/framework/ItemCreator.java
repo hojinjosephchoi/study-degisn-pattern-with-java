@@ -1,5 +1,9 @@
 package com.lattekafe.designpattern.factorymethod.ver1.framework;
 
+/**
+ * 하위 클래스에서 factory method를 통해 적합한 클래스의 객체를 생성하는 방식 
+ *
+ */
 public abstract class ItemCreator {
 	
 	//템플릿 메소드 패턴과 유사

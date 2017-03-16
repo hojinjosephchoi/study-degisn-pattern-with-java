@@ -15,3 +15,19 @@
 	- item은 use함수를 기본 함수로 갖고 있는다.
 4. 현재 아이템의 종류는 체력회복 물약, 마력회복 물약이 있다.
 
+
+---
+
+## Factory method Pattern이란?
+객체의 생성코드를 별도의 클래스 / . 메소드로 분리함으로써 객체 생성의 변화에 대비하는데 유용
+
+## Factory method Pattern 방식
+1. 하위 클래스에서 factory method를 통해 적합한 클래스의 객체를 생성하는 방식 (예제 factorymethod.ver1)
+2. 객체 생성을 전담하는 별도의 클래스를 두는 방식 (예제 factorymethod.ver2)
+
+
+## Factory method Pattern 구성요소
+- Product : 팩토리 메소드로 생성될 객체의 공통 인터페이스
+- Concrete Product : 구체적으로 객체가 생성되는 클래스
+- Creator : 팩토리 메소드를 갖는 클래스
+- ConcreteCreator : 팩토리 메소드를 구현하는 클래스로 ConcreteProduct 객체를 생성
