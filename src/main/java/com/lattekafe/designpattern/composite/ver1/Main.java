@@ -1,4 +1,4 @@
-package com.lattekafe.designpattern.composite;
+package com.lattekafe.designpattern.composite.ver1;
 
 import java.util.ArrayList;
 
