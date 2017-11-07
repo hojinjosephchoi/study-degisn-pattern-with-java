@@ -30,4 +30,4 @@ PatternClassDiagram.mdj
 
 
 ### src/main/java/com/lattekafe/designpattern
-- 패턴 실습 코드
+패턴 실습 코드
